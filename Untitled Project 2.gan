@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SI_A " company="PSC S.A.S" webLink="http://" view-date="2021-02-21" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.0.3000" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline>
+            <![CDATA[0]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ffcc66 #ffff33]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="1" tue="1" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2020" month="11" date="2" type="HOLIDAY">
+            <![CDATA[Día de los Difuntos]]>
+        </date>
+        <date year="2020" month="11" date="16" type="HOLIDAY">
+            <![CDATA[Independencia de Cartagena]]>
+        </date>
+        <date year="2020" month="12" date="8" type="HOLIDAY">
+            <![CDATA[Día de la Inmaculada Concepción]]>
+        </date>
+        <date year="2020" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Navidad]]>
+        </date>
+        <date year="2021" month="1" date="1" type="HOLIDAY">
+            <![CDATA[Año nuevo]]>
+        </date>
+        <date year="2021" month="1" date="11" type="HOLIDAY">
+            <![CDATA[Día de los Reyes Magos]]>
+        </date>
+        <date year="2021" month="3" date="22" type="HOLIDAY">
+            <![CDATA[Día de San José]]>
+        </date>
+        <date year="2021" month="4" date="1" type="HOLIDAY">
+            <![CDATA[Jueves Santo]]>
+        </date>
+        <date year="2021" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Viernes Santo]]>
+        </date>
+        <date year="2021" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Día del Trabajo]]>
+        </date>
+        <date year="2021" month="5" date="17" type="HOLIDAY">
+            <![CDATA[Día de la Ascensión]]>
+        </date>
+        <date year="2021" month="6" date="7" type="HOLIDAY">
+            <![CDATA[Corpus Cristi]]>
+        </date>
+        <date year="2021" month="6" date="14" type="HOLIDAY">
+            <![CDATA[Sagrado corazon]]>
+        </date>
+        <date year="2021" month="7" date="5" type="HOLIDAY">
+            <![CDATA[San Pedro y San Pablo]]>
+        </date>
+        <date year="2021" month="7" date="20" type="HOLIDAY">
+            <![CDATA[Dia de la independencia]]>
+        </date>
+        <date year="2021" month="8" date="7" type="HOLIDAY">
+            <![CDATA[Batalla de Boyacá]]>
+        </date>
+        <date year="2021" month="8" date="16" type="HOLIDAY">
+            <![CDATA[La asunción de la Virgen]]>
+        </date>
+        <date year="2021" month="10" date="18" type="HOLIDAY">
+            <![CDATA[Día de la Raza]]>
+        </date>
+        <date year="2021" month="11" date="1" type="HOLIDAY">
+            <![CDATA[Día de los Difuntos]]>
+        </date>
+        <date year="2021" month="11" date="15" type="HOLIDAY">
+            <![CDATA[Independencia de Cartagena]]>
+        </date>
+        <date year="2021" month="12" date="8" type="HOLIDAY">
+            <![CDATA[Día de la Inmaculada Concepción]]>
+        </date>
+        <date year="2021" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Navidad]]>
+        </date>
+        <date year="2022" month="1" date="1" type="HOLIDAY">
+            <![CDATA[Año Nuevo]]>
+        </date>
+        <date year="2022" month="1" date="10" type="HOLIDAY">
+            <![CDATA[Día de los Reyes Magos]]>
+        </date>
+        <date year="2022" month="3" date="21" type="HOLIDAY">
+            <![CDATA[Día de San José]]>
+        </date>
+        <date year="2022" month="4" date="14" type="HOLIDAY">
+            <![CDATA[Jueves santo]]>
+        </date>
+        <date year="2022" month="4" date="15" type="HOLIDAY">
+            <![CDATA[Viernes santo]]>
+        </date>
+        <date year="2022" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Día del trabajo]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Diseñar, desarrollar e implementar un sistema de información para el control del inventario del almacén de obra en la empresa PSC S.A.S" color="#8cb6ce" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2020-11-08" duration="1" complete="0" thirdDate="2021-05-09" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Realizar la recolección de la información de PSC S.A.S. respecto a los insumos y materiales para el desarrollo de los proyectos de obra civil." color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-11-08" duration="1" complete="0" thirdDate="2020-10-11" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Apoyar el programa de producción y consumo sostenible en obra." color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-11-08" duration="1" complete="0" thirdDate="2020-10-11" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Cumplir con el sistema de gestión de seguridad y salud en el trabajo en los procesos que competen al almacén de obra" color="#ffcc66" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2020-11-15" duration="1" complete="1" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Diseñar, desarrollar e implementar un sistema de información para el control del inventario del almacén de obra en la empresa PSC S.A.S" color="#8cb6ce" meeting="false" start="2020-11-15" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Implementar el uso del sistema de información para el control del inventario del almacén de PSC S.A.S." color="#8cb6ce" meeting="false" start="2020-11-15" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="formulario de entrevista a Gerente de PSC S.A.S" color="#8cb6ce" meeting="false" start="2020-11-15" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Diagramas UML" color="#8cb6ce" meeting="false" start="2020-11-22" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="fotmato IEEE 830" color="#8cb6ce" meeting="false" start="2020-11-15" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Formatos de caso de uso extendido" color="#8cb6ce" meeting="false" start="2020-11-15" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="23" name="DIAGRAMA BPMN" color="#8cb6ce" meeting="false" start="2020-11-22" duration="1" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Primera consolidacion del texto del proyecto y presentacion de power point" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="25" name="Primera evaluacion del proyecto" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="26" name="Modelo Entidad Relación MER notacion crow's foot" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="27" name="Diccionario de datos" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="28" name="Cronograma, presupuesto y selección de personal. Actividad diagrama de Gantt, informes de uso de recursos y presupuestos" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="29" name="Diagrama de distribucion usando el estandar UML" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="30" name="Diagrama de clases usando el estandar UML" color="#8cb6ce" meeting="false" start="2021-05-09" duration="2" complete="0" thirdDate="2020-09-13" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Prototipo no funcional Mockup con el uso de la herramienta Balsamic" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+        <task id="32" name="Normalizacion del modelo entidad relcion MER" meeting="false" start="2020-09-13" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Martha Liliana Rozo Garzon" function="Default:1" contacts="Marlil.rozo@misena.edu.co" phone="3208252522"/>
+        <resource id="1" name="Steven Paez Merchan" function="SoftwareDevelopment:5" contacts="spaez01@misena.edu.co" phone="3166092072"/>
+        <resource id="2" name="Luis Alejandro Orozco Mantilla" function="SoftwareDevelopment:9" contacts="laorozco009@misena.edu.co " phone="6612299"/>
+        <resource id="3" name="Carol Estefania Rodriguez Fierro" function="SoftwareDevelopment:6" contacts="carolrodriguez2002@gmail.com" phone="3186488379"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
