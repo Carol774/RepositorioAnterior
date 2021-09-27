@@ -1,0 +1,17 @@
+
+ *{
+    background-color: #c2bfbf;
+    border-color: black;
+}
+th{
+    background-color: #ffd651;
+    border-style: none;
+    width: 10%;
+    
+}
+table{
+    border-style: outset;
+}
+td{
+    border-style:none;
+}

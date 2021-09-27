@@ -1,0 +1,52 @@
+.contenedor{
+    width: 50%;
+    padding: 10 px;
+}
+.formulario{
+    background: #ffd651;
+    margin-top: 50px;
+    padding: 2px;
+}
+.encabezado{
+    float:right;
+}
+.logo{
+    float:left;
+}
+.tabla, th{
+background-color: #BBBAB8;
+border: 1px solid black;
+border-collapse: collapse;
+}
+.tabla, td{
+background-color: white;
+border: 1px solid black;
+border-collapse: collapse;
+}
+.cabeza {
+width: 90%;
+height: 50px;
+float:left;
+}
+.nombre {
+width: 50%;
+height: 40px;
+}
+.boton{
+background-color:#ffd651;
+border-color:rgb(177, 174, 16);
+color:pink;
+}
+.rom{
+float:right;
+}
+.botonguardar{
+background-color:#5BFF54;
+border-color:#4BBC46;
+color:rgb(0, 0, 0);
+}
+.editar{
+background-color:#FFC065;
+border-color:#D28E2C;
+color:rgb(0, 0, 0);
+}

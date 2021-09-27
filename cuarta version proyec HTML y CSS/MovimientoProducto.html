@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movimiento de producto o articulos</title>
+<link rel="stylesheet" href="style/MovimientoProducto.css">
+</head>
+<body>
+    <br>
+    <table>
+    <div class="creacion">
+    <tr>
+    <th>CREACION Y MODIFICACIÓN DE MATERIAL</th>
+    </tr>
+    </div>
+    </table>
+    <form action="Movimiento producto.html"method="POST">
+    <table>
+        <tr>
+        <th scope="col">Producto</th>
+        <th scope="col"><input type="text" name="nombre" placeholder="Nombre producto" required></th>
+        <th scope="col">Lista de chequeo</th>
+        </tr>
+        <tr>
+            <td>Catalogo</td>
+            <td><input type="text" name="catalogo"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Cantidad</td>
+            <td><input type="number" name="numero cantidad"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Fecha compra</td>
+            <td><input type="date" name="fecha de compra"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Codigo</td>
+            <td><input type="text" name="codigo producto" required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+
+        <tr>
+            <td>Estado</td>
+            <td><input type="text" name="estado producto"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Disposición de residuos peligrosos</td>
+            <td><input type="text" name="disposición"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Consumibles</td>
+            <td><input type="number" name="cantidad consumibles"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+    </table>
+    <table>
+    <tr>
+        <td><input type="button"style="background-color: white" value="Deshabilitado"></td>
+    </tr>
+    </table>
+    </form>
+    <br><br><br>
+    <table>
+        <tr>
+            <th>MOVIMIENTO ARTICULO</th>
+        </tr>
+    </table>
+    <form action="Movimiento producto.html" method="POST">
+    <table>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Lista de chequeo</th>
+        </tr>
+        <tr>
+            <td>Articulo</td>
+            <td><input type="text" name="articulo"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Entradas</td>
+            <td><input type="text" name="Entradas"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Salidas</td>
+            <td><input type="text" name="Salidas"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Orden por compatibilidad</td>
+            <td><input type="text" name="orden c"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+        <tr>
+            <td>Envió a temporales</td>
+            <td><input type="text" name="Envio a almacen Temporal"required></td>
+            <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSi<input type="checkbox" name="Chequeo"required>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo<input type="checkbox" name="chequeo"required></td>
+        </tr>
+    </table>
+    </form>
+    <table>
+     <tr>   
+    <td><input type="button" style="background-color: white;" value="Deshabilitado"></td>
+    </tr>
+    </table>
+    <br>
+    <br>
+    <button class="boton"type="reset"><a href="menus.html">
+        <img src="ICONOS/salir.png"  alt="imagen" width="50" height="50" style="vertical-align: middle">
+        salir
+      </button></a>
+</body>
+</html>

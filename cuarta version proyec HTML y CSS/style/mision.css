@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(180, 177, 177);
+}
+.titulo{
+   font-size: 50px;
+   text-align: center;
+}   
+p{
+    font-size: 40px;
+    text-align:center;
+    color: black;
+}

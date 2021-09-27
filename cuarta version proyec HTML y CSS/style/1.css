@@ -1,0 +1,30 @@
+
+*{
+    margin: 10px;
+    padding: 0px;
+	align-items: center;
+}
+body{
+    background: rgb(194, 191, 191);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    text-align: left;
+    border-radius: 5px;
+    border-collapse: separate;
+    height: 500px;
+			width: 700px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #ffd651;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 0px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+}

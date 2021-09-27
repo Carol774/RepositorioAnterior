@@ -1,0 +1,86 @@
+.boton{
+    background-color: #ffd651 ;
+    border-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
+.form-control{
+    border-radius:1.5rem;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 100%;
+    background-color: #ffd651;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, hsl(59, 100%, 50%), #ffa805);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 20px;
+}
+.titulo{
+    font-size: 60px;
+}
+.tabla,th{
+    background-color:white;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 30%;
+    height: 40px;
+}
+.datosm,td{
+    background-color:white;
+}
+.imagen1{
+    width: 270;
+    height: 280;
+    float:right;
+}
+.DM{
+    float:left;
+}
+.MQ{
+    background-color:white;
+    margin: 0;
+}
+.carac{
+    height: 100px;
+    padding-left: 0;
+}
+.tabla2{
+    background-color: honeydew;
+}
+.tabla3{
+    background-color: honeydew;
+}
+.boton2{
+    background-color:rgb(12, 224, 30);
+    border-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+.logo{
+    float:left;
+}
+.button2{
+    background-color:rgb(27, 250, 165);
+    border-color:rgb(28, 240, 0);
+    color:rgb(0, 0, 0);
+}
+.button3{
+    background-color:rgb(255, 166, 0);
+    border-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+.botonactualizar{
+    background-color:rgb(27, 255, 84);
+    border-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+.botonborrar{
+    background-color:rgb(255, 47, 65);
+    border-color:rgb(138, 0, 0);
+    color:rgb(0, 0, 0);
+}
