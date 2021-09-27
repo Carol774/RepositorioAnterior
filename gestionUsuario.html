@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Gestión usuario </title>
+<link rel="stylesheet" type="text/css" href="style/1.css">
+</head>
+<body bgcolor="gray">	
+<br><br><br><br>
+<center>
+<table width="700" height="500" bgcolor=#ffd651 border="0" border-color="black"> 
+  <tr><td colspan="2" align="right"><h1> Gestión y modificacion de usuario </h1></td></tr>
+    <tr>
+    <td align="right"width="35%">	ID_PSC:</td> 
+    <td>  <input type="text" name="nombre" size="40" ></td> 
+   </tr> 
+   
+   <tr>
+    <td align="right">	PASSWORD: </td> 
+    <td><input type="password" name="nombre" size="40" ></td> 
+   </tr> 
+   
+   <tr>
+    <td align="right"> TIPO_DOC:</td> 
+    <td>  
+      <select name="tipod">  
+        <option value="0">-Elige una opción-</option>
+        <option value="1"> CC </option>
+        <option value="2"> TI </option>
+        <option value="3"> CE </option>
+      </select>  
+      </td> 
+   </tr> 
+   <tr>
+    <td align="right">	NUMERO_DOC: </td> 
+    <td>  <input type="number" placeholder="ejem: 1001186669" min="10000000"> </td> 
+   </tr>
+   <tr>
+    <td align="right">ROL:</td> 
+    <td>
+    <select name="tipod">  
+      <option value="0">-Elige una opción-</option>
+      <option value="1"> Administrador </option>
+      <option value="2"> Almacenista </option>
+      <option value="3"> Ingeniero </option>
+    </select>  
+   </td>
+   </tr> 
+   <tr>
+    <td align="right"> NOMBRE: </td> 
+    <td>  <input type="text" name="nombre" size="40" > </td> 
+   </tr> 
+   <tr>
+    <td align="right"> APELLIDO: </td> 
+    <td>  <input type="text" name="nombre" size="40" > </td> 
+   </tr> 
+  <tr> 
+   <td align="right"> CORREO: </td> 
+   <td>  <input type="email" placeholder="ejem@gmail.com"> </td> 
+  </tr>
+ <tr> 
+  <td align="right"> TELEFONO:  </td> 
+  <td>  <input type="number"  min="3000000000"> </td> 
+ </tr>
+<tr align="center">
+ <td colspan="2"><a href="menus.html"><input type="submit" value="Guardar cambios"></a>
+ <input type="reset" value="Borrar"></td> 
+</tr> 
+  </table>
+</center>
+</body> 
+</html>

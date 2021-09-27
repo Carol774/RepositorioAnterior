@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>gestion del usuario</title>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/GestionAlmacenT.css">   
+</head>
+<body background bgcolor="white">
+<div class="logo">
+<IMG align="left" src="ICONOS/psc.png" width="100" height="100"><a href="">
+</div>
+<div class"encabezado">
+<center><font color="black"><b><u><h1>GESTION ALMANCEN TEMPORAL</h1></center></font></b></u>
+</div>
+<br><br><br>
+ <table class="cabeza"><div>
+  <tr>
+    <th style="background-color:white"><font color="black">CREACION Y MODIFICACION DE ALMACEN TEMPORAL</th></font>
+  </tr></div>
+ </table>
+<div class="rom">
+<button class="boton" type="reset"><a href="menus.html">
+  <img src="ICONOS/casa.png"  alt="imagen" width="60" height="60" style="vertical-align: middle">
+</button></a></div>
+<br><br><br>
+<form class="formulario"><center>
+<div class="contenedor">
+<form action="recibir.php" method="POST">
+<table class="nombre" border="1">
+  <tr tyle="background-color:white">
+    <th><font color="black">nombre de obra:</td>
+    <td><input type="text" name="nombre"></p></td><br/>
+  </tr>
+</table>
+<br><br>
+<button class="editar">
+        <img src="https://cdn.icon-icons.com/icons2/2469/PNG/512/edit_modify_icon_149489.png" alt="imagen" width="34" height="34" style="vertical-align: middle">
+        editar
+</button>
+
+<button class="botonguardar">
+        <img src="https://image.flaticon.com/icons/png/512/69/69539.png" alt="imagen" width="34" height="34" style="vertical-align: middle">
+        guardar
+    </button>
+<form action="" method="POST">
+<table border="1"  width: "85">
+  <tr>
+    
+  <th>
+
+  </th>
+  <th>
+
+  </th>
+  <th>
+      lista de cheteo
+  </th>
+  </tr>
+  <tr>
+    <th><font color="black">Ubicacion:</td>
+    <td><input type="text" name="ubicacion"></td>
+    <td><input type="checkbox" name="chequeo" checked>probado<input type="checkbox" name="chequeo" checked>cambio
+  </tr>
+  <tr>
+    <th><font color="black">codigo:</td>
+    <td><input type="number" name="numero">
+    <td><input type="checkbox" name="chequeo" checked>probado<input type="checkbox" name="chequeo" checked>cambio
+  </tr>
+    <th><font color="black">fecha de apertura:</td>
+    <td><input type="date" name="fecha"></td>
+    <td><input type="checkbox" name="chequeo" checked>probado<input type="checkbox" name="chequeo" checked>cambio
+  </tr>
+  </tr>
+    <th><font color="black">fecha de cierre:</td>
+    <td><input type="date" name="fechac"></td>
+    <td><input type="checkbox" name="chequeo" checked>probado<input type="checkbox" name="chequeo" checked>cambio
+  </tr>
+    <th><font color="black">personal asignado:</td>
+    <td><p><input type="search" name="busqueda" size="40"></p></td>
+    <td><input type="checkbox" name="chequeo" checked>probado<input type="checkbox" name="chequeo" checked>cambio
+  </tr>
+  </table>
+  <br><br><br>
+  <button type="button" onclick="mensaje('inactivo el almacen')">
+  inactivar almacen
+  </button>
+  <script>
+  function mensaje(texto) {
+    alert(texto);
+  }
+  </script>
+  </form>
+  </table>
+</div>
+</form>
+</body>
+</html>
