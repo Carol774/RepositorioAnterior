@@ -1,4 +1,4 @@
-create database PSC;
+create database inventario2;
 
 create table Usuario(
     id_psc int not null primary key,
@@ -204,9 +204,19 @@ insert into Historico_Precio values(2,"2019/11/20 13:45:00",1);
 SELECT * FROM historico_precio;
 
 
-SELECT h.fecha, a.nombre_articulo, p.Proveedor FROM historico_precio h INNER JOIN articulo a on h.id_articulo=a.id_articulo INNER JOIN Proveedor p ON p.id_nit=a.id_nit;
-SELECT * from almacen_general ag INNER JOIN almacen_temporal a on ag.id_entrada=a.id_entrada;
-SELECT ag.fecha 'fecha de Ingreso', a.estado 'Estado Almacen Temporal' from almacen_general ag INNER JOIN almacen_temporal a on ag.id_entrada=a.id_entrada;
+SELECT h.fecha, a.nombre_articulo, p.Proveedor 
+FROM historico_precio h INNER JOIN articulo a 
+on h.id_articulo=a.id_articulo 
+INNER JOIN Proveedor p 
+ON p.id_nit=a.id_nit;
+
+SELECT * from almacen_general ag 
+INNER JOIN almacen_temporal a on ag.id_entrada=a.id_entrada;
+
+SELECT ag.fecha 'fecha de Ingreso', a.estado 'Estado Almacen Temporal' 
+from almacen_general ag INNER JOIN almacen_temporal a 
+on ag.id_entrada=a.id_entrada;
+
 SELECT ag.fecha 'fecha de Ingreso', a.estado 'Estado Almacen Temporal', ar.nombre_articulo 
 from almacen_general ag 
 INNER JOIN almacen_temporal a 
@@ -214,6 +224,9 @@ on ag.id_entrada=a.id_entrada
 INNER JOIN articulo ar 
 on ag.id_entrada= ar.id_entrada;
 
-SELECT hp.fecha,ar.nombre_articulo, ar.precio_articulo, cm.descripcion_cat from articulo ar INNER JOIN historico_precio hp on ar.id_articulo= hp.id_articulo INNER JOIN categoria_material cm on ar.id_cat= cm.id_cat;
+SELECT hp.fecha,ar.nombre_articulo, ar.precio_articulo, cm.descripcion_cat 
+from articulo ar INNER JOIN historico_precio hp 
+on ar.id_articulo= hp.id_articulo INNER JOIN categoria_material cm 
+on ar.id_cat= cm.id_cat;
 
 
